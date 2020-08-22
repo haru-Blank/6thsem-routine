@@ -26,6 +26,18 @@ h1 {
   font-size: 64px;
 }
 
+a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid transparent;
+}
+
+a:hover,
+a:active {
+  border-bottom: 1px solid black;
+}
+
 thead {
   background-color: #4caf50;
   font-size: 20px;
